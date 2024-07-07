@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS -->
+    <link href="/src/output.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="w-full px-8 lg:px-32 pt-10 flex justify-between bg-pink text-brown flex-wrap items-center ">
+        <div>
+            <p class="text-3xl font-bold capitalize">FIFASH</p>
+        </div>
+        <nav class="space-x-4 lg:space-x-9">
+            <ul class="flex flex-row gap-4 flex-wrap lg:gap-9 text-xl lg:text-2xl font-black sm:text-xs">
+                <li>
+                    <a href="#">Men</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="#">Kids</a>
+                </li>
+                <li>
+                    <a href="#">Collection</a>
+                </li>
+                <li>
+                    <a href="#">Trends</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="flex items-center space-x-5 mt-4 lg:mt-0">
+            <div class="relative">
+                <span class="absolute -top-2 right-0 bg-red-600 text-white text-sm rounded-full px-2">1</span>
+                <img src="/assest/shopping-cart.svg" alt="Cart Icon" class="w-8 h-8" />
+            </div>
+            <button class="border border-brown px-4 py-2 w-24 h-12 font-bold">LOGIN</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home  -->
+        <section id="Home"
+            class="bg-pink w-full flex flex-row px-8 sm:px-16 lg:px-32 py-20 gap-3 justify-between  lg:flex-nowrap max-lg:flex-col-reverse max-md:items-center">
+            <div class="w-full lg:w-[34rem] min-[450px]:w-[20rem]">
+                <p class="capitalize text-3xl lg:text-4xl xl:text-7xl font-bold leading-tight">Find the Best<br> Fashion
+                    Style<br> for You</p>
+                <p class="text-lg lg:text-2xl font-normal pt-6 max-lg:pt-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros, eget tincidunt
+                    ipsum eleifend ut.
+                </p>
+                <button
+                    class="w-full lg:w-[15rem] h-[3rem] lg:h-[5rem]  text-white text-lg lg:text-xl font-black rounded-xl bg-brown p-4 mt-6 lg:mt-10 drop-shadow-xl">
+                    Shop Now
+                </button>
+            </div>
+            <div class="flex justify-center lg:justify-end w-[32rem] h-[37rem] max-lg:w-[27rem]">
+                <img src="/assest/hero.jpeg"
+                    class="w-full h-auto max-md:w-[20rem] max-md:h-[27rem] lg:max-lg:w-[27rem] lg:max-lg:h-[37rem] custom-rounded"
+                    alt="Fashion Hero Image" />
+            </div>
+        </section>
+        <!-- New Collection -->
+        <section id="Collection">
+            <div class="flex flex-col flex-wrap px-8 w-full py-20 items-center gap-5 max-md:justify-center max-md:px-2">
+                <div class="flex flex-col items-center">
+                    <p class="font-bold  text-[4.25rem] max-md:text-[2rem]">New Collection</p>
+                    <p class="text-[2rem] max-md:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        ullamcorper
+                        congue eros</p>
+                </div>
+                <div class="flex flex-row gap-5 flex-wrap md:justify-center max-sm:justify-center">
+                    <!-- image 01 -->
+                    <div class="relative lg:w-[22rem] md:w-[10rem] sm:w-[20rem]">
+                        <img src="/assest/style1.jpeg" class="w-full h-[26rem] object-cover rounded-t-lg">
+
+                        <div class="absolute inset-0 flex items-center  justify-center ">
+                            <p class="uppercase text-black text-lg font-bold bg-white px-24 py-7 opacity-75">SWEATER</p>
+                        </div>
+                    </div>
+
+                    <div class="relative lg:w-[22rem] md:w-[10rem] sm:w-[20rem]">
+                        <img src="/assest/style2.jpeg" class="w-full h-[26rem] object-cover rounded-t-lg">
+
+                        <div class="absolute inset-0 flex items-center  justify-center ">
+                            <p class="uppercase text-black text-lg font-bold bg-white px-24 py-7 opacity-75">Long Sleeve
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="relative lg:w-[22rem] md:w-[10rem] sm:w-[20rem]">
+                        <img src="/assest/style3.jpeg" class="w-full h-[26rem] object-cover rounded-t-lg">
+
+                        <div class="absolute inset-0 flex items-center  justify-center ">
+                            <p class=" uppercase text-black text-lg font-bold bg-white px-24 py-7 opacity-75">T-SHirt
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Best Fashion -->
+        <section id="Best Fashion">
+            <div class="flex flex-row px-48 py-8 gap-5 w-full max-md:flex-col max-md:px-16 max-md:py-4 max-md:gap-2">
+                <div class="">
+                    <div>
+                        <img src="/assest//bestfashion.jpeg"
+                            class="custom-rounded02 h-[32rem] w-[70rem] max-md:h-[20rem] max-md:w-[40rem]">
+
+                    </div>
+                    <div class="h-[11rem] w-[11rem] bg-darkpink relative -top-24   right-12 "></div>
+                </div>
+                <div>
+                    <div class="px-10 py-5">
+                        <p class="text-7xl font-bold py-2 max-md:text-4xl">Best Fashion<br> Since 2014</p>
+                        <p class="text-xl font-normal leading-9">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed ullamcorper congue eros, eget
+                            tincidunt ipsum eleifend ut orem ipsum dolor sit amet consectetur adipiscing elit Sed
+                            ullamcorper congue eros eleifend ut tincidunt ipsum .</p>
+                    </div>
+                    <div
+                        class="flex justify-between bg-white p-8 shadow-lg relative right-16 pt-6 max-md:flex-col max-md:items-center">
+                        <div class="text-center">
+                            <p class="text-4xl font-bold">2014</p>
+                            <p class="text-lg">FiFash Founded</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-4xl font-bold">8900+</p>
+                            <p class="text-lg">Product Sold</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-4xl font-bold">3105+</p>
+                            <p class="text-lg">Best Reviews</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Best Seller Product -->
+        <section id="best seller">
+            <div
+                class="flex flex-row bg-brown width-full text-white px-40 py-20 max-md:flex-col max-md:px-10 max-md:items-center">
+                <div class="flex flex-col gap-10 justify-start max-md:items-center">
+                    <p class="font-bold text-5xl leading-10">Best Seller Product</p>
+                    <p class="font-normal leading-9 text-xl w-[300px]">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed ullamcorper congue eros</p>
+                    <button
+                        class="bg-transparent border border-white text-white py-2 px-4 uppercase text-sm transition duration-300 w-[12rem]">See
+                        More</button>
+                </div>
+                <div class="flex flex-row gap-6 w-2/3 max-md:flex-col max-md:pt-5">
+                    <div class="bg-white text-brown-800 rounded-lg overflow-hidden">
+                        <img src="/assest/bestseller01.jpeg" alt="Woman in black shirt"
+                            class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-between items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white text-brown-800 rounded-lg overflow-hidden">
+                        <img src="/assest/bestseller02.jpeg" alt="Woman in white top" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-between items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white text-brown-800 rounded-lg overflow-hidden">
+                        <img src="/assest/bestseller03.jpeg" alt="Woman in light colored top"
+                            class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-between items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Products -->
+        <section id="ourProducts" class="py-8 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-48">
+            <div class="flex flex-col items-center">
+                <h2 class="font-bold text-3xl sm:text-4xl md:text-5xl text-center mb-6">Our Products</h2>
+                <div class="w-full max-w-4xl mb-8">
+                    <ul class="flex flex-wrap justify-center gap-2 sm:gap-4 text-sm sm:text-base md:text-lg font-medium">
+                        <li><a href="#" class="hover:underline">Hot</a></li>
+                        <li><a href="#" class="hover:underline">ON SALE</a></li>
+                        <li><a href="#" class="hover:underline">TRENDING NOW</a></li>
+                        <li><a href="#" class="hover:underline">NEW ARRIVAL</a></li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                    <div class="w-full max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="/assest/product1.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4 flex justify-center flex-col">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product2.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product3.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product4.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product5.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product 06.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product7.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16rem] h-[24.25rem]">
+                        <img src="/assest/product08.jpeg" class="w-full h-[17.8rem]">
+                        <div class="p-4">
+                            <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                            <p class="font-semibold text-lg mb-2">Pastel Long Sleeve</p>
+                            <div class="flex justify-evenly items-center">
+                                <p class="font-bold">$140</p>
+                                <p class="line-through text-gray-500">$100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- What People Say -->
+        <section id="Reviews" class="py-10 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-40">
+            <div class="flex flex-col items-center gap-8 max-w-4xl mx-auto ">
+                <div class="text-center">
+                    <h2 class="font-bold text-3xl sm:text-4xl md:text-5xl mb-4">What People Say About Us</h2>
+                    <p class="font-normal text-sm sm:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros</p>
+                </div>
+                <div class="w-full">
+                    <div class="bg-pink p-6 sm:p-10 rounded-lg shadow-md max-w-2xl mx-auto">
+                        <div class="flex flex-col gap-6 text-center">
+                            <p class="font-black text-sm sm:text-base leading-7">
+                                Comfortable and met all my expectations!<br> I ordered a medium and it fit perfectly
+                            </p>
+                            <p class="font-normal text-sm sm:text-base leading-relaxed">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus, auctor pretium ac
+                                ultrices. Dui lacus dignissim tincidunt urna, at enim tempo. Pellentesque amet Lorem ipsum
+                                dolor sit amet,
+                            </p>
+                        </div>
+                        <div class="mt-8 text-center">
+                            <p class="text-base font-bold">Anisa Zahra</p>
+                            <p class="font-normal text-sm">Founder milenial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-brown text-white w-full">
+        <div class="container mx-auto px-4 py-8">
+          <div class="mb-8">
+            <div class="grid grid-cols-5 gap-2">
+              <img src="/assest/footer1.jpeg" alt="Fashion model 1" class="w-full h-48 object-cover">
+              <img src="/assest/footer2.jpeg" alt="Fashion model 2" class="w-full h-48 object-cover">
+              <img src="/assest/footer3.jpeg" alt="Fashion model 3" class="w-full h-48 object-cover">
+              <img src="/assest/footer4.jpeg" alt="Fashion model 4" class="w-full h-48 object-cover">
+              <img src="/assest/footer5.jpeg" alt="Fashion model 5" class="w-full h-48 object-cover">
+            </div>
+            <div class="text-center mt-4">
+              <span class="bg-white text-brown px-4 py-2 rounded-full text-sm">
+                Follow Our Instagram : @Fifash_Trends
+              </span>
+            </div>
+          </div>
+          
+          <nav class="flex justify-center space-x-6 mb-6">
+            <a href="#" class="hover:underline">MEN</a>
+            <a href="#" class="hover:underline">WOMAN</a>
+            <a href="#" class="hover:underline">KIDS</a>
+            <a href="#" class="hover:underline">TRENDS</a>
+            <a href="#" class="hover:underline">CONTACT US</a>
+            <a href="#" class="hover:underline">FAQ</a>
+          </nav>
+          
+          <div class="text-center text-sm">
+            © 2021 FIFAH. All Rights Reserved
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
