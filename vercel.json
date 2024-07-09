@@ -2,7 +2,7 @@
     "builds": [
       { "src": "src/**/*.html", "use": "@vercel/static" },
       { "src": "src/**/*.css", "use": "@vercel/static" },
-      {"src":"assest/**/*","use":"@vercel/static"}
+      {"src":"/assest/**/*","use":"@vercel/static"}
     ],
     "routes": [
       { "src": "/assest/(.*)", "dest": "/assest/$1" },
