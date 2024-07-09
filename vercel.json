@@ -8,16 +8,16 @@
     {
       "src": "src/**/*.css",
       "use": "@vercel/static"
-    },
-    {
-      "src":"./assest/(.*)",
-      "use":"@vercel/static"
     }
+    
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/src/$1"
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "static":{
+    "directory":"./assest"
+  }
 }
