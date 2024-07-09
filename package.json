@@ -1,15 +1,12 @@
 {
-  "name": "e-commerce_fashion_web",
+  "name": "e-commercefashion",
   "version": "1.0.0",
   "main": "tailwind.config.js",
-  "dependencies": {
-    "tailwindcss": "^3.4.4",
-    "postcss": "^8.4.39",
-    "autoprefixer": "^10.4.14"
-  },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify",
-    "deploy": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
