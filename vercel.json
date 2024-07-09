@@ -10,7 +10,7 @@
       "use": "@vercel/static"
     },
     {
-      "src":"/(.*)",
+      "src":"./assest/(.*)",
       "use":"@vercel/static"
     }
   ],
