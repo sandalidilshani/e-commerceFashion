@@ -1,23 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "src/**/*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "src/**/*.css",
-      "use": "@vercel/static",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-    
-  ],
+  "public": true,
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/src/$1"
+      "dest": "/index.html"
     }
   ]
 }
