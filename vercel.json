@@ -1,19 +1,6 @@
 {
     "builds": [
-      {
-        "src": "src/index.html",
-        "use": "@vercel/static"
-      },
-      {
-        "build":"npx tailwindcss -i ./src/input.css -o ./src/output.css"
-
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "src/index.html"
-      }
+      { "src": "*.html", "use": "@vercel/static" },
+      { "src": "*.css", "use": "@vercel/static" }
     ]
   }
-  
