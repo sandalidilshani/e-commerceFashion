@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify",
-    "deploy": "vercel --prod"
+    "deploy": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify"
   },
   "devDependencies": {}
 }
