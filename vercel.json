@@ -8,8 +8,8 @@
     {
       "src": "src/**/*.css",
       "use": "@vercel/static",
-      "config":{
-        "distDir":"dist"
+      "config": {
+        "distDir": "dist"
       }
     }
     
@@ -17,8 +17,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/src/$1"
     }
   ]
-  
 }
