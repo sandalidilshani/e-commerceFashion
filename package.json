@@ -10,15 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "builds": [
-    { "src": "src/**/*.html", "use": "@vercel/static" },
-    { "src": "src/**/*.css", "use": "@vercel/static" },
-    { "src": "/assest/**/*", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/assest/(.*)", "dest": "/assest/$1" },
-    { "src": "/(.*).css", "dest": "/src/$1.css" },
-    { "src": "/(.*)", "dest": "/src/$1" }
-  ]
+  "description": ""
+  
 }
