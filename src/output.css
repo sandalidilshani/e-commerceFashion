@@ -693,6 +693,10 @@ video {
   height: 26rem;
 }
 
+.h-\[32rem\] {
+  height: 32rem;
+}
+
 .h-\[37rem\] {
   height: 37rem;
 }
@@ -870,14 +874,14 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-\[\#e9b9a8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 185 168 / var(--tw-bg-opacity));
+}
+
 .bg-brown {
   --tw-bg-opacity: 1;
   background-color: rgb(52 37 31 / var(--tw-bg-opacity));
-}
-
-.bg-darkpink {
-  --tw-bg-opacity: 1;
-  background-color: rgb(211 161 126 / var(--tw-bg-opacity));
 }
 
 .bg-pink {
@@ -1223,10 +1227,6 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .sm\:gap-4 {
     gap: 1rem;
   }
@@ -1276,12 +1276,28 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:w-\[10rem\] {
     width: 10rem;
   }
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:justify-center {
@@ -1291,6 +1307,10 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:pl-12 {
+    padding-left: 3rem;
   }
 
   .md\:text-5xl {
@@ -1313,16 +1333,8 @@ video {
     margin-top: 2.5rem;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:h-\[5rem\] {
     height: 5rem;
-  }
-
-  .lg\:w-1\/2 {
-    width: 50%;
   }
 
   .lg\:w-\[15rem\] {
@@ -1341,20 +1353,12 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
   .lg\:flex-nowrap {
     flex-wrap: nowrap;
   }
 
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-
-  .lg\:gap-12 {
-    gap: 3rem;
   }
 
   .lg\:gap-9 {
@@ -1370,6 +1374,11 @@ video {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:px-32 {
