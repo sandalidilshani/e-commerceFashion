@@ -5,11 +5,11 @@
   "scripts": {
     "test": "",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "build": "npm run build:css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
-  
 }
